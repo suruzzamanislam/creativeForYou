@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-[#F44335] px-3 py-2 font-semibold text-white rounded-md hover:scale-105 duration-200;
+  }
+  .box {
+    @apply px-4 md:px-14 lg:px-28;
+  }
+  .status_box {
+    @apply flex flex-col items-center justify-center gap-y-2;
+  }
+}
