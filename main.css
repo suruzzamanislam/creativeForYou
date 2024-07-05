@@ -13,3 +13,6 @@
     @apply flex flex-col items-center justify-center gap-y-2;
   }
 }
+.testimonial {
+  background-image: url(./img/bgImg.png);
+}
